@@ -1,0 +1,23 @@
+/* PHASE 9: Forms */
+
+
+.post-form {
+  border: 1px solid #ccc;
+ 
+}
+form{
+  margin: 20px;
+  padding: 20px;
+  background-color: #eee
+}
+input,textarea{
+  margin: 4px;
+  padding: 8px;
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 10px;
+}
+.button{
+  background-color: #0c0;
+  box-shadow: 0 3px 0 0 #070;
+}

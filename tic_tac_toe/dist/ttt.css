@@ -9,9 +9,17 @@ ul{
   min-width: 50px;
   min-height: 50px;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: cornflowerblue;
   border: 2px solid black;
 }
 .box:hover{
   background: pink;
+}
+
+.X {
+  background: red; 
+}
+
+.O {
+  background: white;
 }

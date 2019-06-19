@@ -14,10 +14,11 @@ class View {
     // debugger
     // this.$el.append(this.game.winner())
     console.log(this.game.playMove([$square.data('id')[0],$square.data('id')[1]]));
+    $square.addClass(`${this.game.currentPlayer}`);
     this.game.isOver()
-    $square.html(`${this.game.currentPlayer}`)
+    $square.html(`${this.game.currentPlayer}`);
     if(this.game.isOver()){
-      alert(`its over ${this.game.winner()==='x' ?'o' :'x'} has won`)
+      this.$el.append(`its over ${this.game.winner() === 'x' ? 'o' : 'x'} has won `);
     }
   }
 
@@ -26,12 +27,12 @@ class View {
       let $grid = $('<ul>');
       for (let i=0; i < 3; i++) {
         let $box = $('<li>');
-        $box.data('id',`${j}${i}`)
+        $box.data('id',`${j}${i}`);
         $box.addClass('box');
-        $grid.append($box)
+        $grid.append($box);
       }
       
-      this.$el.append($grid)
+      this.$el.append($grid);
     }
 
   }

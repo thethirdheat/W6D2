@@ -1,4 +1,4 @@
-ul{
+ul {
   display: flex;
   margin: 0px;
  
@@ -6,20 +6,22 @@ ul{
 
 .box {
   display: flex;
-  min-width: 50px;
-  min-height: 50px;
+  min-width: 100px;
+  min-height: 100px;
   flex-wrap: wrap;
   background-color: cornflowerblue;
   border: 2px solid black;
 }
-.box:hover{
+
+.box:hover {
   background: pink;
 }
 
-.X {
+.x {
   background: red; 
 }
 
-.O {
+.o {
   background: white;
 }
+[*?a..?z]

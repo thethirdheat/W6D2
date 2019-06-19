@@ -4,6 +4,10 @@ ul {
  
 }
 
+h1 {
+  color: green;
+}
+
 .box {
   display: flex;
   min-width: 100px;
@@ -13,15 +17,15 @@ ul {
   border: 2px solid black;
 }
 
+
 .box:hover {
   background: pink;
 }
 
 .x {
-  background: red; 
+  background: red;
 }
 
 .o {
-  background: white;
+  background: white; 
 }
-[*?a..?z]

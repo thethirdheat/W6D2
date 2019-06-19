@@ -18,7 +18,7 @@ class View {
     this.game.isOver()
     $square.html(`${this.game.currentPlayer}`);
     if(this.game.isOver()){
-      this.$el.append(`its over ${this.game.winner() === 'x' ? 'o' : 'x'} has won `);
+      this.$el.append(`<h1>its over ${this.game.winner() === 'x' ? 'o' : 'x'} has won</h1>`);
     }
   }
 
